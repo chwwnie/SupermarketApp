@@ -85,11 +85,11 @@
                   <div class="text-center">
                     <!-- <img src="<%= product.image %>" alt="<%= product.productName %>" class="img-fluid rounded border"
                       style="max-height: 200px;"> -->
-                    <input type="text" name="currentImage" class="form-control"value=<%=product.image %> readonly><br>
+                    <input type="text" name="currentImage" class="form-control" value=<%=product.image %> readonly><br>
 
                     <img src="/images/<%= product.image %>" width="20%"><br><br>
 
-                    New Image:<br> <input type="file" id="image" name="image" accept="image/*" value=<%=product.image %>
+                    New Image:<br> <input type="file" class="form-control" id="image" name="image" accept="image/*" value=<%=product.image %>
                     ><br><br>
                   </div>
                 </div>
